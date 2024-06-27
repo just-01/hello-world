@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultor Previdenciário</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container1">
+            <h1 style="margin-bottom: 0px; font-size: xxx-large;">JustiLegal</h1>
+            <h3 style="margin: 0; ">Serviços de Advocacia</h2>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                    <li id="item"><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        
+        <div class="container">            
+            <h2 style="font-style: italic;">Defendendo Seus Direitos com Excelência</h2>
+            <p>Consultoria jurídica especializada para proteger seus interesses legais.</p>
+            <a href="#contact" class="btn">Agende uma Consulta</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre</h2>
+            <p>Oferecemos soluções jurídicas eficientes e personalizadas, com ética e transparência. Com advogados especializados, atendemos às necessidades de cada cliente, garantindo alta qualidade e segurança jurídica. Nossa missão é ser referência no mercado, proporcionando tranquilidade e confiança.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Serviços</h2>
+            <ul style="font-weight: bold;">
+                <li>Consultoria Jurídica Personalizada</li>
+                <li>Direito Empresarial</li>
+                <li>Direito Trabalhista</li>
+                <li>Direito Civil</li>
+                <li>Direito Penal</li>
+                <li>Direito Imobiliário</li>
+            </ul>
+            <img src="img\termos-juridicos.jpg" width="600px" style="border: solid;">
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>Depoimentos</h2>
+            <div class="testimonial">
+                <p>"A JustiLegal foi minha escolha em um processo trabalhista. Competência e dedicação que fizeram a diferença."</p>
+                <cite>- Maria Souza</cite>
+            </div>
+            <div class="testimonial">
+                <p>"Como empresário, encontrei na JustiLegal a parceria ideal para minhas necessidades jurídicas. Soluções rápidas e eficazes."</p>
+                <cite>- João Oliveira</cite>
+            
+            </div>
+            
+            <div class="testimonial">
+                <p>"A JustiLegal foi minha escolha em um processo trabalhista. Competência e dedicação que fizeram a diferença."</p>
+                <cite>- José Silva</cite>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para agendar uma consulta.</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" style="text-align: center; font-size:medium;" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" style="text-align: center; font-size:medium;" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 JustiLegal. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

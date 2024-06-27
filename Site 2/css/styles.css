@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container1 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background: #212A3E;
+    color: #fff;
+    min-height: 70px;
+    border-bottom: #B6BBC4 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    border-right: 1px solid #F1F6F9;
+    padding: 0 20px 0 20px;
+}
+
+#item {
+    border: none;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+#hero {
+    background: #395281;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero .btn {
+    display: inline-block;
+    color: #333;
+    border: solid 1px;
+    background: #F1F6F9;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#about, #services, #testimonials, #contact {
+    padding: 30px 0;
+    text-align: center;
+    background: #f1f6f9;
+}
+
+#services ul {
+    list-style: none;
+    padding: 0;
+}
+
+#services ul li {
+    padding: 10px;
+}
+
+.testimonial {
+    background: #394867;
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.testimonial cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    color: #9BA4B5;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contact input, #contact textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#contact button {
+    display: inline-block;
+    background: #395281;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #3b4353;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
